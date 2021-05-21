@@ -1,0 +1,3807 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />  
+        <meta name="description" content="this is a copy of BBC ">
+        <title>the modern page of BBC</title>
+
+        <style type="text/css">
+        body{
+            margin:0;
+        }
+        .fixedwidth{
+         width:1270px;
+         margin:0 auto;
+        
+
+        }
+        .topbar{
+            background-color: #000000;
+            width:100%;
+            height:40px;
+        }
+        .bbclogo1{
+            background-color: white; 
+            width:27px;
+            height:26px; 
+            position: relative;
+            top:7px;
+        }
+        .bbclogo1 p{
+            position: relative;
+            left:7px;
+            top:2.5px;
+            font-size: 20px;
+            font-weight: bold;          
+        }
+        .bbclogo2{
+            background-color: white; 
+            width:27px;
+            height:26px; 
+            margin-left:31px;
+            position: relative;
+            bottom:39px;
+        }
+        .bbclogo2 p{
+            font-size: 20px;;
+            font-weight: bold;
+            position: relative;
+            top:2.5px;
+            left:5px;
+        }
+        .bbclogo3{
+            background-color: white;
+            width:27px;
+            height:26px;
+            margin-left:66px;
+            position: relative;
+            bottom:85px;
+            left:-4px;
+            border-right:1px solid white ;
+            border-right: 0px solid white;
+        }
+        .bbclogo3 p{
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            top:2.5px;
+            left:5px;
+        }
+        .login{
+            height:100%;
+            width:180px;
+            color:white;
+            margin-left: 110px;
+            margin-top: -140px;
+            float:left;
+            border-left:1px solid white ;
+        }
+        .login p{
+            margin-left: 42px;
+            margin-top:32px;
+        }
+        .login img{
+            margin-top:-36px;
+            margin-left: 12px;
+        }
+        .menue li{
+            list-style:none;
+            margin:00px;
+            float:left;
+            color:white      ;
+            margin-left:15px;
+            padding-left: 15px;
+            font-weight: bold;
+            font-size: 1em;
+            position: relative;
+            left:240px;
+            bottom: 123px;
+            border-left:1px solid white ;
+        }
+        .more{
+            width:120px;
+            border-right:1px solid white ;
+            position: relative;
+            bottom: 123px;
+            left:265px;
+            background-color: black;
+            color:white;
+            list-style: none;
+          font-weight: 500;
+            font-size: 1em;
+        }
+        .cul{
+            padding-right:20px;
+            border-right:1px solid white ;
+        }
+        .adv_bar{
+            width:100%;
+            height:280px;
+            background-color: #f6f6f6;
+            position: relative;
+            bottom: 175px;
+        }
+        .adv_bar p{
+            margin-left:1125px;
+            color:#444340;;
+            font-size: 12px;;
+            position: relative;
+            bottom: -5px;
+            font-family: sans-serif;
+        }
+        .search{
+            background-color: white;
+            width:180px;
+            height:25px;
+            position: relative;
+            left:1065px;
+            bottom:170px;
+        }
+        .search p{
+            margin-top:22px;
+            position: relative;
+            left:3px;
+            bottom:-5px;
+            font-family: sans-serif;
+        }
+        .search img{
+            position: relative;
+            left:150px;
+            bottom:32px;
+        }
+        .talks1{
+            position: relative;
+            bottom:165px;  
+            font-size: 25px;
+            font-family: sans-serif;
+            color:#49494a;
+        }
+        .talks2{
+            position: relative;
+            left:1040px;
+            bottom:220px;  
+            font-size: 25px;
+            font-family: sans-serif;
+            color:#49494a;
+        }
+        .newss{
+            position: relative;
+            left:-5px;
+            bottom: 230px;
+            clear:both;
+        }
+        .break{
+            clear:both;
+        }
+        .first_pic{
+            margin-bottom:400px;
+            position: relative;
+            bottom: 230px;
+        }
+        .first_pic p{
+            position: relative;
+            bottom:190px;
+            left:10px;
+            font-size:35px;
+            width:570px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #ffffff;
+        }
+        .first_pic p1{
+            width:620px;
+            font-size:16.45px;
+            position: relative;
+            bottom:30px;
+            color:#cccccc; 
+        }
+        .first_pic p2{
+            line-height: 10px;
+            font-size:17.45px;
+            color: #cccccc;
+             position: relative;
+            bottom:15px;
+            right:100;
+        }
+        .line{
+            background-color:red;
+            width:2px;
+            height:12px;
+            position: relative;
+            bottom:260px;
+            right:-8px;
+        }
+        .second_pic{
+           margin-bottom: 3000px;
+           position: relative;
+           bottom:1235px;
+           left:640px;
+           right:40px;
+        }
+        .second_pic p{
+            width: 250px;
+            font-size:18.45px;
+            position: relative;
+            bottom:30px;
+            color:white;
+            position: relative;
+            bottom:100px;
+            left:10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .second_pic p2{
+            position: relative;
+            bottom:10px;
+            left:17px;
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .line2{
+            background-color:red;
+            width:2px;
+            height:12px;
+            position: relative;
+            bottom:145px;
+            right:-8px;
+        }
+        .third_pic{
+            position: relative;
+            bottom:4358px;
+            left:640px; 
+        }
+        .third_pic p{
+            color:white;
+            font-size:19.45px;
+            position: relative;
+            top:-110px;
+            left:15px;
+            width:220px;
+            left:10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .third_pic p2{
+            color:#cccccc;
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .line3{
+            background-color:yellow;
+            width:2px;
+            height:12px;
+            position: relative;
+            bottom:145px;
+            left:10px;;
+        }       
+        .forth_pic{
+            position: relative;
+            bottom:4840px;
+            left:960px;
+            margin-bottom: 300px;
+        }
+        .forth_pic p1{          
+            font-size:18.45px;
+            color:white;
+            width:250px;
+            position: relative;
+            top:-50px;
+            right:290px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .forth_pic p2{
+            position: relative;
+            top:-20px;
+            right:600px;
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .line4{
+            background-color:red;
+            position:relative;
+            top:-35px;
+            right:-20px;
+            width:2px;
+            height:12px;
+        }
+        .fifth_pic{
+            position: relative;
+            bottom:5148px;
+            left:960px;
+
+        }
+        .fifth_pic p{
+            color:white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:16.45px;
+            width:200px;
+            position: relative;
+            bottom:100px;
+            left:13px;
+        }
+        .fifth_pic p2{
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:100px;
+            left:27px;
+        }
+        .line5{
+            background-color:red;
+            width:2px;
+            height:12px;
+            position: relative;
+            bottom:115px;
+            left:15px;
+        }
+        .second_news{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            position: relative;
+            bottom:5200px;
+            left:15px;
+        }
+        .line6{
+            background-color: red;
+            width:3px;
+            height:20px;
+            position: relative;
+            left:-15px;
+            bottom: 57px;
+        }
+        .nurse_photo{
+            position: relative;
+            bottom:5230px;
+        }
+        .speak1{
+            color:black;
+            position: relative;
+            top:17px;
+            right:0px;
+            width:300px;
+            font-size: 23px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .speak2{
+            position: relative;
+            top:25px;
+            width:300px;
+            font-size: 16px;
+            color:#898989;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+        }
+        .EUROPE{
+            font-size: 16px;
+            position: relative;
+            left:15px;
+            top:15px;
+        }
+        .line7{
+            background-color:red;
+            width:2px;
+            height:14px;
+        }
+        .china_photo{
+            position: relative;
+            bottom:5536px;
+            left:310px;
+        }
+        .speak11{
+            font-size: 23px;
+            color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            top:17px;
+            width:270px;
+        }
+        .speak22{
+            position: relative;
+            top:25px;
+            width:300px;
+            font-size: 16px;
+            color:#898989;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .asia{
+            font-size: 16px;
+            position: relative;
+            left:15px;
+            top:45px;
+            color:#898989;
+
+        }
+        .line9{
+            background-color: red;
+            width:2.5px;
+            height:12px;
+            position: relative;
+            top:30px;
+
+        }
+        .first_girl{
+            position: relative;
+            bottom:5840px;
+            left:620px;
+        }
+        .play_icon{
+            position: relative;
+            top:-175px;
+            }
+            .second_girl{
+                position: relative;
+                bottom:6040px;
+                left:723px;
+            }
+        .third_girl{
+            position: relative;
+            bottom:6210px;
+            left:826px;
+        }
+        .speak33{
+            font-size: 23px;
+            color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:6195;
+            left:620px;
+            width:250px;
+        }
+        .speak_girls{
+            position: relative;
+            bottom:6180;
+            left:620px;
+            width:250px;
+            font-size: 16px;
+            color:#898989;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .world{
+            position: relative;
+            bottom:6160;
+            left:640px;
+            font-size: 16px;
+            color:#898989;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .line10{
+            background-color:red;
+            width:2px;
+            height:14px;
+            position: relative;
+            bottom:6175;
+            left:620px;
+        }
+        .ground_adv{
+            background-color:f6f6f6;
+            width:330;
+            height:1450;
+            position: relative;
+            bottom:6517;
+            left:940px;
+            }
+        .ground_adv_text{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 13px;
+            position: relative;
+            left:200px;
+            top:10px;
+            color:#898989;
+            }
+        .second_sport{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            position: relative;
+            bottom:7570px;
+            left:15px;
+        }  
+        .line11{
+            background-color: #ffd930;
+            width:3px;
+            height:20px;
+            position: relative;
+            bottom:7594px;
+        }  
+        .breaking{
+            position: relative;
+            bottom:7570px;
+        }
+        .breaking_speak{
+            position: relative;
+            bottom:-15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+            color:black;
+            width:270px;
+        }
+        .breaking_speak_topic{
+            width:300px;
+            font-size: 16px;
+            color:#898989;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:-25px;
+        }
+        .breaking_speak_football{
+            font-size: 16px;
+            position: relative;
+            bottom:-115px;
+            left:20px;
+            color:blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:#898989;  
+        }
+        .breaking_speak_line{
+            background-color:#ffd930;
+            width:3px;
+            height:14px;
+            position: relative;
+            bottom:-100px;       
+        }
+        .coach{
+            position: relative;
+            bottom:7875px;
+            left:310px;
+        }
+        .coach_speak{
+            position: relative;
+            bottom:-15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+            color:black;
+            width:270px;
+        }
+        .coach_topic{
+            width:250px;
+            font-size: 16px;
+            color:#898989;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:-25px;
+        }
+        .coach_football{
+            font-size: 16px;
+            position: relative;
+            bottom:-60px;
+            left:20px;
+            color:blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:#898989;
+        }
+        .coach_line{
+            background-color:#ffd930;
+            width:3px;
+            height:14px;
+            position: relative;
+            bottom:-45px;
+        }
+        .hug{
+            position: relative;
+            bottom:8234px;
+            left:620px;
+        }
+        .hug_title{
+            position: relative;
+            bottom:-15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+            color:black;
+            width:270px;
+        }
+        .hug_topic{
+            width:250px;
+            font-size: 16px;
+            color:#898989;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:-25px;
+        }
+        .hug_PREMIER_LEAGUE{
+            font-size: 16px;
+            position: relative;
+            bottom:-95px;
+            left:20px;
+            color:blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:#898989;
+        }
+        .hug_line{
+            background-color:#ffd930;
+            width:3px;
+            height:14px;
+            position: relative;
+            bottom:-80px;
+        }
+        .weather{
+            position: relative;
+            bottom:8050px;
+            color:#4a4a4a;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+        }
+        .weather_square{
+            background-color:#f2f2f2;
+            height:25px;
+            width:35px;
+            position: relative;
+            bottom:8075px;
+            left:190px;
+        }
+        .edit{
+            color:#8ca7ca;
+            position: relative;
+            bottom:8094px;
+            left:195px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+        }
+        .weather_first_icon{
+            position: relative;
+            bottom:8050px;
+        }
+        .friday{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+        .temp_1{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            font-weight:bold;
+        }
+        .temp_2{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+        }
+        .weather_second_icon{
+            position: relative;
+            bottom:8155px;
+            left:120px;
+        }
+        .saturday{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+        .temp_1_2{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            font-weight:bold;
+        }
+        .temp_2_2{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+        }
+        .weather_third_icon{
+            position: relative;
+            bottom:8260px;
+            left:240px;
+        }
+        .sunday{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+        .temp_1_3{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            font-weight:bold;
+        }
+        .temp_2_3{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+        }
+        .weather_forth_icon{
+            position: relative;
+            bottom:8365px;
+            left:360px;
+        }
+        .monday{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+        .temp_1_4{
+            position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            font-weight:bold;
+        }
+        .temp_2_4{
+             position: relative;
+            left:70px;
+            bottom:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+        }
+        .sun_rise{
+            position: relative;
+         
+            bottom:8300px;
+        }
+        .reel{
+            position: relative;
+            bottom:8750px;
+            font-size: 60PX;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:white;
+
+          
+        }
+        .title{
+            position: relative;
+            bottom:8750px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:white;
+            font-size: 20PX;
+
+
+        }
+        .food_pic{
+            position: relative;
+            bottom:8735px;
+
+        }.baner{
+            background-color: white;
+            height:70px;
+            width:400px;
+        }
+        .baner_title1{
+            color:black;
+            width:350px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22PX;
+            position: relative;
+            bottom:60px;
+            left:10px;
+
+        }
+        .mark_pic{
+            position: relative;
+            bottom:9073px;
+            left:420px;
+
+        }
+        .baner2{
+            background-color: white;
+            height:70px;
+            width:400px;
+
+        }
+        .baner_title2{
+            color:black;
+            width:350px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22PX;
+            position: relative;
+            bottom:60px;
+            left:10px;
+
+        }
+        .teacher_pic{
+            position: relative;
+            bottom:9412px;
+            left:840px;
+
+        }
+        .baner3{
+            background-color: white;
+            height:70px;
+            width:400px;
+
+        }
+        .baner_title3{
+            color:black;
+            width:350px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22PX;
+            position: relative;
+            bottom:60px;
+            left:10px;
+
+
+        }
+        .visit{
+           
+            left:10px;
+            color:white;
+            position: relative;
+            bottom:458px;
+            left:320px;
+            
+        }
+        .shape{
+            width:130px;
+            height:35px;
+            border-radius: 20px;
+            background-color:brown;
+            position: relative;
+            bottom:430px;
+            left:300px;
+
+
+        }
+        .circle{
+            width:130px;
+            height:35px;
+            border-radius: 20px;
+            background-color:brown;
+        }
+        .back_ground{
+            background-color: #dfdfdf;
+            width:100%;
+            height:1050px;
+            position: relative;
+            bottom:9400px;
+          
+
+        }
+        .line12{
+            width:3px;
+            height:23px;
+            background-color:#47a1d8;
+            position: relative;
+            top:35px;
+        }
+        .Editor’s_Picks{
+            color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:27px;
+            position: relative;
+            top:8px;
+            left:10px;
+
+        }
+        .rock{
+            position: relative;
+            top:25px;
+
+        }
+       .rock_title{
+            color:white;
+            font-size: 40px;
+            position: relative;
+            top:-130px;
+            left:15px;
+        }
+        
+        .rock_topic{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            top:-120px;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .rock_travel{
+           background-color:green;
+           width:2px;
+           height:14px;
+            position: relative;
+            top:-100px;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ._rock_travel{
+            position: relative;
+            top:-117px;
+            left:35px;
+            color:#cccccc;
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .head_lable{
+            background-color:red;
+            height:40px;
+            width:390px;
+            position: relative;
+            left:860px;
+            bottom:577px;
+        }
+        .head_lable_title{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+color:white;
+position: relative;
+            left:870px;
+            bottom:607px;
+
+        }
+        .lable1{
+            background-color: #363636;
+            height:120px;
+            width:390px;
+            position: relative;
+            left:860px;
+            bottom:600px;
+
+        }
+        .lable2{
+            background-color:#2f2f2f;
+            height:120px;
+            width:390px;
+            position: relative;
+            left:860px;
+            bottom:600px;
+
+        }
+        .lable3{
+            background-color: #363636;
+            height:120px;
+            width:390px;
+            position: relative;
+            left:860px;
+            bottom:600px;
+
+
+        }
+        .lable4{
+            background-color:#2f2f2f;
+            height:120px;
+            width:390px;
+            position: relative;
+            left:860px;
+            bottom:600px;
+
+        }
+        .lable5{
+            background-color: #363636;
+            height:120px;
+            width:390px;
+            position: relative;
+            left:860px;
+            bottom:600px;
+
+        }
+        .circle1{
+            background-color: red;
+            height:45px;
+            width:45px;
+            border-radius: 22.5px;;
+            position: relative;
+            bottom:1165px;
+            left:900px;
+
+        }
+        .circle2{
+            background-color: red;
+            height:45px;
+            width:45px;
+            border-radius: 22.5px;;
+            position: relative;
+            bottom:1090px;
+            left:900px;
+
+        }
+
+        .circle3{
+            background-color: red;
+            height:45px;
+            width:45px;
+            border-radius: 22.5px;;
+            position: relative;
+            bottom:1010px;
+            left:900px;
+
+        }
+
+        .circle4{
+            background-color: red;
+            height:45px;
+            width:45px;
+            border-radius: 22.5px;;
+            position: relative;
+            bottom:940px;
+            left:900px;
+
+        }
+
+        .circle5{
+            background-color: red;
+            height:45px;
+            width:45px;
+            border-radius: 22.5px;;
+            position: relative;
+            bottom:860px;
+            left:900px;
+
+        }
+        .number1{
+            color:white;
+            font-size:25px;
+            position: relative;
+            bottom:1380px;
+            left:915px;
+            font-style: italic;
+
+        }
+        .number2{
+            color:white;
+            font-size:25px;
+            position: relative;
+            bottom:1290px;
+            left:915px;
+            font-style: italic;
+
+
+        }
+        .number3{
+            color:white;
+            font-size:25px;
+            position: relative;
+            bottom:1194px;
+            left:915px;
+            font-style: italic;
+
+
+        }
+        .number4{
+            color:white;
+            font-size:25px;
+            position: relative;
+            bottom:1107px;
+            left:915px;
+            font-style: italic;
+
+        }
+        .number5{
+            color:white;
+            font-size:25px;
+            position: relative;
+            bottom:1010px;
+            left:915px;
+            font-style: italic;
+
+
+        }
+        .title1{
+            color: #d3d3d3;
+            font-size: 20px;
+            position: relative;
+            bottom:1530px;
+            left:975px;
+            width:250px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .title2{
+            color: #d3d3d3;
+            font-size: 20px;
+            position: relative;
+            bottom:1460px;
+            left:975px;
+            width:250px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .title3{
+            color: #d3d3d3;
+            font-size: 20px;
+            position: relative;
+            bottom:1380px;
+            left:975px;
+            width:250px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .title4{
+            color: #d3d3d3;
+            font-size: 20px;
+            position: relative;
+            bottom:1310px;
+            left:975px;
+            width:250px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+        }
+        .title5{
+            color: #d3d3d3;
+            font-size: 20px;
+            position: relative;
+            bottom:1230px;
+            left:975px;
+            width:250px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .carbon_pic{
+            position: relative;
+            bottom:1315px;
+
+        }
+        .petrool_pic{
+            position: relative;
+            bottom:1695px;
+            left:285px;
+
+        }
+        .elon_pic{
+            position: relative;
+            bottom:2075px;
+            left:570px;
+
+
+        }
+        .carbon_background{
+            background-color:white;
+            height:210px;
+            width:270px;
+            
+
+        }
+        .petrool_background{
+            background-color:white;
+            height:210px;
+            width:270px;
+
+        }
+        .elon_background{
+            background-color:white;
+            height:210px;
+            width:270px;
+
+
+        }
+        .carbon_title{
+            font-size:21px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width:200px;
+            position: relative;
+            left:10px;
+            top:10px;
+        }
+        .carbon_topic{
+            color:#515151;
+            width:250px;
+            position: relative;
+            left:10px;
+            top:20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .carbon_line{
+            width:2px;
+            height:13px;
+            background-color:#09c6ee;
+            position: relative;
+            left:10px;
+            top:60px;
+        }
+        .carbon_FOLLOW_THE_FOOD{
+            color:#cccccc;
+            position: relative;
+            left:20px;
+            top:45px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+        }
+        .petrool_title{
+            font-size:21px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width:200px;
+            position: relative;
+            left:10px;
+            top:10px;
+
+        }
+        .petrool_topic{
+            color:#515151;
+            width:250px;
+            position: relative;
+            left:10px;
+            top:20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .petrool_line{
+            width:2px;
+            height:13px;
+            background-color:black;
+            position: relative;
+            left:10px;
+            top:60px;
+
+        }
+        .petrool_future{
+            color:#cccccc;
+            position: relative;
+            left:20px;
+            top:45px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+
+        }
+        .elon_title{
+            font-size:21px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width:240px;
+            position: relative;
+            left:10px;
+            top:10px;
+        }
+        .elon_topic{
+            color:#515151;
+            width:200px;
+            position: relative;
+            left:10px;
+            top:20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+        }
+        .elon_line{
+            width:2px;
+            height:13px;
+            background-color:#09c6ee;
+            position: relative;
+            left:10px;
+            top:60px;
+
+        }
+        .elon_WORKLIFE{
+            color:#cccccc;
+            position: relative;
+            left:20px;
+            top:45px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+
+
+        }
+        .flower{
+            position: relative;
+            bottom:9400px;
+        }
+        .first_shape{
+            width:170px;
+            height:40px;
+            /*border-radius: 30px;*/
+            border:2px #047c1b solid;
+            background-color: none;
+            position: relative;
+            left:0px;
+            bottom:450px;
+
+        }
+        .shape_future{
+            /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+            color:white;
+            position: relative;
+            left:17px;
+            bottom:485px;
+            font-size: 25px;
+
+
+
+        }
+        .under_shape{
+            color:white;
+            font-size: 19px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:0px;
+            bottom:465px;
+
+        }
+        .circle_shape{
+            float:right;
+            width:220px;
+            height:40px;
+            border-radius: 30px;
+            border:2px white solid;
+            position: relative;
+            left:0px;
+            bottom:540px;
+           
+        }
+        .words{
+            position: relative;
+            left:20px;
+            bottom:-10px;
+            font-size: 19px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:white;
+
+        }
+        .phone{
+            position: relative;
+            left:0px;
+            bottom:450px;
+
+        }
+        .map{
+            position: relative;
+            left:435px;
+            bottom:750px;
+
+        }
+        .dolphen{
+            position: relative;
+            left:870px;
+            bottom:1050px;
+            
+
+        }
+        .phone_back_ground{
+            width:420px;
+            height:50px;
+            background-color:white;
+        }
+        .phone_title{
+            color:black;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom:-13px;
+
+        }
+        .map_back_ground{
+            width:420px;
+            height:50px;
+            background-color:white;
+
+        }
+        .map_title{
+            color:black;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom:-13px;
+
+
+        }
+        .dolphen_back_ground{
+            width:420px;
+            height:50px;
+            background-color:white;
+
+
+        }
+        .dolphen_title{
+            color:black;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom:-13px;
+
+
+        }
+        .technology{
+            position: relative;
+            left:5px;
+            bottom:10370px;
+            font-size: 23px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .plane{
+            position: relative;
+        
+            bottom:-10px;
+
+        }
+        .FOLLOW_THE_FOOD{
+            position: relative;
+            left:660px;
+           bottom:415px;
+            font-size: 23px;
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .man_pic{
+            position: relative;
+            left:650px;
+           bottom:405px;
+
+        }
+        .plane_line{
+            background-color: red;
+            height:13px;
+            width:2px;
+            position: relative;
+            left:15px;
+           bottom:-22px;
+        }
+        .business{
+            color:#cccccc;
+            font-size:15px;
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .plane_topic{
+            font-size:23px;
+            position: relative;
+            left:25px;
+            top:35px;
+
+        }
+        .man_line{
+            background-color: cyan;
+            height:13px;
+            width:2px;
+            position: relative;
+            left:15px;
+           bottom:-22px;
+
+        }
+        .man_future{
+            color:#cccccc;
+            font-size:15px;
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .man_topic{
+            font-size:23px;
+            position: relative;
+            left:25px;
+            top:35px;
+
+        }
+        .second_back_ground{
+            background-color: #f6f6f6;
+            width:100%;
+            height:1000px;
+            position: relative;
+            bottom:10700px;
+        }
+        .line13{
+            background-color: cyan;
+            height:18px;
+            width:4px;
+            position: relative;
+            top:20px;
+
+        }
+        .Featured_video{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:25px;
+            position: relative;
+            left:13px;
+            bottom:5px;
+
+
+        }
+        .duck_pic{
+            position: relative;
+         
+         bottom:-20px;
+
+
+        }
+        .play_icon{
+            position: relative;
+         
+            bottom:707px;
+
+        }
+        .duck_title{
+            font-size:41px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+         left:40px;
+            bottom:200px;
+            color:white;
+            
+
+
+        }
+        .duck_topic{
+            font-size:19px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:#cccccc;
+            position: relative;
+         left:40px;
+            bottom:180px;
+
+
+        }
+        .duck_line{
+            background-color: cyan;
+            height:15px;
+            width:2px;
+            position: relative;
+            bottom:160px;
+            left:40px;
+
+        }
+        .AUSTRALIA{
+
+            color:#cccccc;
+            font-size:17px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:178px;
+            left:50px;
+
+        }
+        .first_slice{
+            background-color:#363636;
+            height:65px;
+            width:100%;
+            position: relative;
+            bottom:153px;
+        }
+        .recommended{
+            color:white;
+            font-size:22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            top:22px;
+            left:30px;
+
+
+        }
+        .Most_Watched{
+            color:white;
+            font-size:22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            top:-3px;
+            left:220px;
+
+
+        }
+        .Latest{
+            color:white;
+            font-size:22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+           bottom:28px;
+            left:395px;
+
+
+        }
+        .limited_line{
+            background-color:#4a4a4a;
+            height:2px;
+            width:100%;
+            position: relative;
+           top:-9.5px;
+
+        }
+        .second_limited_line{
+          
+            background-color:#363636;
+            height:155px;
+            width:100%;
+            position: relative;
+            bottom:10px;
+
+        }
+        .third_limited_line{
+            background-color:white;
+            height:5px;
+            width:160px;
+            position: relative;
+            bottom:168px;
+            left:28px;
+
+        }
+        .second_duck{
+            position: relative;
+            bottom:-15px;
+
+        }
+        .second_duck_title{
+            color:cccccc;
+            font-size:22px;
+            width:180px;
+            position: relative;
+            bottom:120px;
+            left:230px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .line14{
+            background-color:cyan;
+            height:14px;
+            width:2px;
+            position: relative;
+           bottom:90px;
+           left:230px;
+
+        }
+        .AUSTRALIA258{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+           bottom:105px;
+           left:240px;
+           color:#cccccc;
+
+        }
+        .girls3_pic{
+            position: relative;
+           bottom:210px;
+           left:405px;
+
+
+        }
+        .girls3_pic_topic{
+            position: relative;
+           bottom:120px;
+           left:220px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           color:cccccc;
+           font-size:22px;
+            width:180px;
+        }
+        .line15{
+            background-color:cyan;
+            height:14px;
+            width:2px;
+            position: relative;
+           bottom:90px;
+           left:220px;
+
+
+        }
+        .WORLD555{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+           bottom:105px;
+           left:230px;
+           color:#cccccc;
+
+        }
+        .strange_man{
+            position: relative;
+           bottom:435px;
+           left:810px;
+
+        }
+        .strange_man_topic{
+            position: relative;
+           bottom:120px;
+           left:220px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           color:#cccccc;
+           font-size:22px;
+            width:180px;
+
+        }
+        .line16{
+            background-color:cyan;
+            height:14px;
+            width:2px;
+            position: relative;
+           bottom:90px;
+           left:220px;
+
+        }
+        .UK{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+           bottom:105px;
+           left:230px;
+           color:#cccccc;
+
+
+        }
+        .arrow{
+            position: relative;
+           bottom:213px;
+           left:382px;
+
+        }
+        .on_air_red_line{
+            background-color:red;
+            height:35px;
+            width:190px;
+            position: relative;
+            bottom:10660px;
+        }
+        .BBC_WORLD_SERVICE{
+            color:white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:-8px;
+            left:20px;
+            font-weight: bold;
+
+
+        }
+        .on_air_black_line{
+            background-color:black;
+            height:35px;
+            width:1080px;
+            position: relative;
+            bottom:18.1px;
+            left:190px;
+
+
+        }
+        .micro{
+            position: relative;
+            bottom:-6.5px;
+            left:20px;
+
+        }
+        .ON_AIr_Music_Life{
+            color:#cccccc;
+            position: relative;
+            bottom:14px;
+            left:55px;
+        }
+        .third_back_ground{
+            width:100%;
+            height:1320px;
+            background-color:#f6f6f6;
+            position: relative;
+            bottom:10625px;
+        }
+        .line17{
+            background-color:cyan;
+            height:20px;
+            width:3px;
+            position: relative;
+          top:40px;
+           left:0px;
+
+        }
+        .More_around_the_BBC{
+            position: relative;
+          top:15px;
+           left:20px;
+           font-size:27px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .sunrise2_pic{
+            position: relative;
+            top:40px;
+            float: right;
+
+        }
+        .sunrise2_title{
+            color:white;
+            font-size:38px;
+            position: relative;
+           bottom:160px;
+           left:20px;
+           width:750px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .sunrise2_topic{
+            color:#cccccc;
+            font-size:19px;
+            position: relative;
+           bottom:155px;
+           left:20px;
+        }
+        .line18{
+            background-color:#3c0303;
+            width:2px;
+            height:13px;
+            position: relative;
+           bottom:-20px;
+      
+        }
+        .sunrise2_business{
+            color:#cccccc;
+            position: relative;
+            left:20px;
+            top:5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:15px;
+            
+        }
+        .doctor_pic{
+            position: relative;
+            bottom:125px;
+
+        }
+        .doctor_pic_background{
+            background-color:white;
+            height:160px;
+            width:260px;
+           
+            
+
+        }
+        .doctor_pic_topic{
+         position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:23px;
+            width:250px;
+            position: relative;
+            bottom:145px;
+
+        }
+        .line18{
+            background-color:red;
+            width:2px;
+            height:13px;
+            position: relative;
+            left:15px;
+            bottom: 110px;
+        
+
+        }
+        .doctor_europe{
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom: 3px;
+
+        }
+        .young_pic{
+            position: relative;
+            bottom:535px;
+            left:270px;
+
+        }
+        .young_pic_background{
+            background-color:white;
+            height:160px;
+            width:260px;
+
+        }
+        .doctor_pic_topic{
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:23px;
+            width:250px;
+            position: relative;
+            bottom:145px;
+
+        }
+        .line19{
+            background-color:red;
+            width:2px;
+            height:13px;
+            position: relative;
+            left:15px;
+            bottom: 110px;
+        
+
+        }
+        .young_TECHNOLOGY{
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom: 3px;
+
+
+        }
+        .sky_pic{
+            position: relative;
+            bottom:945px;
+            left:540px;
+
+        }
+        .sky_pic_background{
+            background-color:white;
+            height:160px;
+            width:260px;
+
+
+        }
+        .sky_pic_topic{
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:23px;
+            width:250px;
+            position: relative;
+            bottom:145px;
+
+
+        }
+        .line20{
+            background-color:red;
+            width:2px;
+            height:13px;
+            position: relative;
+            left:15px;
+            bottom: 110px;
+        
+
+        }
+        .sky_TECHNOLOGY{
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom: 3px;
+           
+            width:270px;
+
+        }
+        .stop_pic{
+            position: relative;
+            left:0px;
+            bottom: 1020px;
+
+        }
+        .stop_pic_background{
+            background-color:white;
+            height:160px;
+            width:260px;
+
+        }
+        .stop_pic_topic{
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:23px;
+            width:250px;
+            position: relative;
+            bottom:145px;
+
+        }
+        .line21{
+            background-color:red;
+            width:2px;
+            height:13px;
+            position: relative;
+            left:15px;
+            bottom: 85px;
+        
+
+        }
+        .young_TECHNOLOGY{
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom: 3px;
+           
+            width:270px;
+
+
+        }
+        .star_pic{
+            position: relative;
+            left:270px;
+            bottom: 1405px;
+
+        }
+        .star_pic_background{
+            background-color:white;
+            height:160px;
+            width:260px;
+
+        }
+        .star_pic_topic{
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:23px;
+            width:250px;
+            position: relative;
+            bottom:145px;
+
+        }
+        .line22{
+            background-color:red;
+            width:2px;
+            height:13px;
+            position: relative;
+            left:15px;
+            bottom: 110px;
+
+        }
+        .star_TECHNOLOGY{
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom: 3px;
+           
+            width:270px;
+
+        }
+        .nurse2_pic{
+            position: relative;
+            left:540px;
+            bottom: 1815px;
+
+
+        }
+        .nurse2_pic_background{
+            background-color:white;
+            height:160px;
+            width:260px;
+
+        }
+        .nurse2_pic_topic{
+            position: relative;
+            left:15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:23px;
+            width:250px;
+            position: relative;
+            bottom:145px;
+
+        }
+        .line23{
+            background-color:red;
+            width:2px;
+            height:13px;
+            position: relative;
+            left:15px;
+            bottom: 110px;
+
+        }
+        .nurse2_TECHNOLOGY{
+            color:#cccccc;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            left:15px;
+            bottom: 3px;
+           
+            width:270px;
+
+        }
+        .lable11{
+            height:35px;
+            width:450px;
+background-color: red;
+position: relative;
+            left:0px;
+            top:40px;
+
+
+
+        }
+        .lable11_topic{
+            color:white;
+            position: relative;
+            left:15px;
+            top:10px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .lable122{
+            background-color:#363636;
+            height:135px;
+            width:450px;
+            position: relative;
+           
+            top:40px;
+        }
+        .lable133{
+            background-color:#2f2f2f;
+            height:135px;
+            width:450px;
+            position: relative;
+           
+           top:40px;
+
+        }
+        .lable144{
+            background-color:#363636;
+            height:135px;
+            width:450px;
+            position: relative;
+           
+            top:40px;
+
+        }
+        .lable155{
+            background-color:#2f2f2f;
+            height:135px;
+            width:450px;
+            position: relative;
+           
+           top:40px;
+
+
+        }
+        .lable166{
+            background-color:#363636;
+            height:135px;
+            width:450px;
+            position: relative;
+           
+            top:40px;
+
+        }
+        .lable177{
+            background-color:#2f2f2f;
+            height:135px;
+            width:450px;
+            position: relative;
+           
+           top:40px;
+
+
+        }
+        .lable188{
+            background-color:#363636;
+            height:135px;
+            width:450px;
+            position: relative;
+           
+            top:40px;
+
+        }
+        .lable199{
+            background-color:#2f2f2f;
+            height:125px;
+            width:450px;
+            position: relative;
+           
+            top:40px;
+        }
+        .pic22{
+           
+            position: relative;
+            left:40px;
+            top:35px;
+
+
+        }
+        .label22_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:240px;
+
+
+        }
+        .lable122_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+
+        }
+        .pic33{
+            position: relative;
+            left:40px;
+            top:20px;
+
+
+        }
+        .lable133_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:300px;
+
+        }
+        .lable133_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+
+        }
+        .pic44{
+            position: relative;
+            left:40px;
+            top:35px;
+
+        }
+        .lable144_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:220px;
+        }
+        .lable144_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+
+        }
+        .pic55{
+            position: relative;
+            left:40px;
+            top:35px;
+
+        }
+        .lable155_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:220px;
+        }
+        .lable155_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+        }
+        .pic66{
+            position: relative;
+            left:40px;
+            top:35px;
+
+        }
+        .lable166_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:280px;
+
+        }
+        .lable166_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+        }
+        .pic77{
+            position: relative;
+            left:40px;
+            top:35px;
+
+        }
+        .lable177_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:220px;
+
+        }
+        .lable177_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+        }
+        .pic88{
+            position: relative;
+            left:40px;
+            top:35px;
+
+        }
+        .lable188_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:220px;
+
+
+        }
+        .lable188_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+
+        }
+        .pic99{
+            position: relative;
+            left:40px;
+            top:35px;
+
+
+        }
+        .lable199_topic{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 22px;
+            color:#cccccc;
+            position: relative;
+            left:85px;
+            bottom:60px;
+            width:320px;
+
+
+        }
+        .lable199_sig{
+            color:#cccccc;
+            font-size: 18px;
+            position: relative;
+            left:90px;
+            bottom:55px;
+            font-style: italic;
+
+
+        }
+        .GLOBAL_TRADE{
+            color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+bottom:10590px;
+float:left;
+font-size: 26px;;
+
+        }
+        .helen_pic{
+            position: relative;
+             bottom:10570px;
+
+        }
+        .helen_title{
+            position: relative;
+             bottom:90px;
+             left:15px;
+             color:white;
+             font-size: 25px;
+
+
+        }
+        .line20{
+            width:2px;
+            height:14px;
+            position: relative;
+             left:15px;
+             bottom:85px;
+             color:red;
+            
+        }
+        .business{
+            color:#cccccc;
+            position: relative;
+             left:35px;
+            
+             bottom:100px;
+
+        }
+        .ADVERTISEMENT{
+            color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+bottom:10960px;
+left:680px;
+font-size: 12px;;
+
+        }
+        .zoom_pic{
+            position: relative;
+             bottom:10930px;
+             left:840px;
+
+        }
+        .zoom_title{
+            position: relative;
+             bottom:90px;
+             left:15px;
+             color:white;
+             font-size: 25px;
+             width:380px;
+
+        }
+        .business2{
+            color:#cccccc;
+            position: relative;
+             left:35px;
+            
+             bottom:100px;
+
+        }
+        .another_background{
+            height:900px;
+            width:100%;
+        background-color:#f6f6f6;
+        position: relative;
+             
+             bottom:10970px;
+
+
+
+
+        }
+        .line25{
+            width:3px;
+            height:18px;
+            background-color:#47a1d8;
+            float:left;
+            position: relative;
+            top:40px;
+        }
+        .World_in_pictures{
+            color:black;
+            font-size: 27px;
+            position: relative;
+            left:20px;
+            top:33px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                
+
+        }
+        .woman_pic{
+            position: relative;
+           bottom:980px;
+            
+            
+
+        }
+        .woman_title{
+            color:white;
+            font-size: 22px;
+            position: relative;
+            left:15px;
+            bottom:80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .line28{
+            width:2px;
+            height:14px;
+            background-color:#47a1d8;
+           
+            position: relative;
+            bottom:60px;
+            left:15px;
+
+        }
+        .INx_PICTURES {
+            position: relative;
+            bottom:75px;
+            left:30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:#cccccc;
+
+        }
+        .pyramid_pic{
+            position: relative;
+           bottom:1487px;
+           left:650px;
+
+        }
+        .pyramid_title{
+            color:white;
+            font-size: 22px;
+            position: relative;
+            left:15px;
+            bottom:80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .AFRICA{
+            position: relative;
+            bottom:75px;
+            left:30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:#cccccc;
+
+
+        }
+        .woman2_pic{
+            position: relative;
+            bottom:1580px;
+
+        }
+        .woman2_ground{
+            width:420px;
+            height:120px;
+        background-color: white;
+        }
+        .woman2_topic{
+            color:black;
+            width:400px;
+            position: relative;
+            left:15px;
+            bottom: 100px;
+            font-size: 23px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .line29{
+            width:2px;
+            height:14px;
+            background-color:#47a1d8;
+           
+            position: relative;
+            bottom:80px;
+            left:15px;
+
+        }
+        .SUFFOLK{
+            color:#cccccc;
+            position: relative;
+            bottom:95px;
+            left:30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .dogs_pic{
+            position: relative;
+            bottom:2083px;
+            left:435px;
+
+        }
+        .dogs_ground{
+            width:420px;
+            height:120px;
+        background-color: white;
+
+        }
+        .dogs_topic{
+            color:black;
+            width:400px;
+            position: relative;
+            left:15px;
+            bottom: 100px;
+            font-size: 23px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+        }
+        .IN_PICTURES{
+            color:#cccccc;
+            position: relative;
+            bottom:95px;
+            left:30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+        }
+        .building_pic{
+            position: relative;
+            bottom:2585px;
+            left:870px;
+
+
+        }
+        .building_ground{
+            width:420px;
+            height:120px;
+        background-color: white;
+
+        }
+        .building_topic{
+            color:black;
+            width:400px;
+            position: relative;
+            left:15px;
+            bottom: 100px;
+            font-size: 23px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .INn_PICTURES{
+            color:#cccccc;
+            position: relative;
+            bottom:75px;
+            left:30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .line30{
+            width:2px;
+            height:14px;
+            background-color:#47a1d8;
+           
+            position: relative;
+            bottom:60px;
+            left:15px;
+
+        }
+        .camera1{
+            position: relative;
+            bottom:455px;
+
+        }
+        .camera2{
+            position: relative;
+            bottom:455px;
+
+        }
+        .camera3{
+            position: relative;
+            bottom:453px;
+
+
+        }
+        .camera4{
+            position: relative;
+            bottom:452px;
+
+
+        }
+        .camera5{
+            position: relative;
+            bottom:427px;
+
+
+        }
+        .before_the_last_background{
+            height:500px;
+            width:100%;
+            background-color:#f2f2f2;
+            position: relative;
+            bottom:10970px;
+        }
+        .BBC_IN_OTHER_LANGUAGES{
+            font-size: 27px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:-50px;
+            color:#4a4a4a;
+        }
+        .Hausa{
+            font-size: 20px;
+            position: relative;
+            bottom:-60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+
+        }
+        .hausa_title{
+            position: relative;
+            bottom:-70px;
+            width:110px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .arabic{
+            font-size: 20px;
+            position: relative;
+            bottom:35px;
+            left:130px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+
+        }
+        .arabic_tile{
+            position: relative;
+            bottom:20px;
+            left:150px;
+            width:130px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .Swahili{
+            font-size: 20px;
+            position: relative;
+            bottom:113px;
+            left:310px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+
+        }
+        .sw_tile{
+            position: relative;
+            bottom:100px;
+            left:300px;
+            width:120px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .Somali{
+            font-size: 20px;
+            position: relative;
+            bottom:243px;
+            left:455px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+
+        }
+        .so_title{
+            position: relative;
+            bottom:225px;
+            left:450px;
+            width:120px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+        .More_Languages{
+            font-size: 20px;
+            position: relative;
+            bottom:390px;
+            left:600px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+
+        }
+        /* .menue li{
+            list-style:none;
+            margin:00px;
+            float:left;
+            color:white      ;
+            margin-left:15px;
+            padding-left: 15px;
+            font-weight: bold;
+            font-size: 1em;
+            position: relative;
+            left:240px;
+            bottom: 123px;
+            border-left:1px solid white ;*/
+            .language1_in_bbc{
+                position: relative;
+            bottom:390px;
+            left:560px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+
+            }
+            .language1_in_bbc li{
+                list-style:none;
+                position: relative;
+                margin-top:15px;
+                
+
+            }
+            .language2_in_bbc{
+                position: relative;
+            bottom:660px;
+            left:740px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+
+            }
+           .language2_in_bbc li{
+                list-style:none;
+                position: relative;
+                margin-top:15px;
+            }
+            .language3_in_bbc{
+                position: relative;
+            bottom:900px;
+            left:920px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            }
+            .language3_in_bbc li{
+                list-style:none;
+                position: relative;
+                margin-top:15px;
+
+            }
+            .language4_in_bbc{
+                position: relative;
+            bottom:1140px;
+            left:1100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+
+            }
+            .language4_in_bbc li{
+                list-style:none;
+                position: relative;
+                margin-top:15px;
+
+            }
+            .last_background{
+                width:100%;
+                height:350px;
+                position: relative;
+            bottom:11040px;
+
+            background-color:#4c4c4c;
+
+
+            }
+            .explore{
+                color:white;
+                font-size: 25px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                position: relative;
+                top:30px;
+
+            }
+            .last_list{
+                list-style:none;
+                color:white;
+                position: relative;
+                top:60px;
+                right:190px;
+            }
+            .last_list li{
+                list-style:none;
+                float:left;
+                margin-left:150px;
+               
+                margin-top:20px;
+                border-right:1px solid white;
+
+            padding-left: 7px;
+            font-weight: bold;
+            font-size: 1em;
+            width:40px;
+          
+        
+            }
+            .last_line{
+                width:100%;
+                height:1px;
+                background-color:white;
+                position: relative;
+                top:150px;
+            }
+            .after_last_list{
+                float:left;
+                list-style:none;
+                color:white;
+                position: relative;
+                top:10px;
+                right:60px;
+                font-size:14px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+            }
+            .after_last_list li{
+                float:left;
+                list-style:none;
+                margin-top:80px;
+                margin-left:25px;
+
+
+
+            }
+
+            .before_the_last_line{
+                color:white;
+                font-size: 14px;
+                position: relative;
+                top:25px;
+                float:left;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+            }
+            .last_line111{
+                float:left;
+                color:white;
+                position: relative;
+                top:80px;
+                right:190px;
+            }
+            .mid{
+                font-size: 13px;
+            }
+
+         
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </style>
+        </head>
+        <body>
+<div class="page">
+   
+<div class="topbar">
+<div class="fixedwidth">   
+<div class="bbc">         
+<div class="bbclogo1">
+<p>B</p>
+<a href=></a>
+</div>
+<div class="bbclogo2">
+<p>B</p>
+<a href=></a>
+</div>
+<div class="bbclogo3" ><a href="https://www.bbc.com"></a>
+<p>C <a href="https://www.bbc.com"></a></p><a href="https://www.bbc.com"></a>
+<a href="https://www.bbc.com"></a>
+</div><a href="https://www.bbc.com"></a>
+</div>
+<div class="login">
+<p>Your accounrt</p>
+<img src="photo/iconccccc.PNG"width="25px"height="25px">
+</div>
+<div class="menue">
+<ul>
+<li>Home</li>
+<li>News</li>
+<li>Sport</li>
+<li>Reel</li>
+<li>Worklife</li>
+<li>Travel</li>
+<li>Future</li>
+<li class="cul">Culture</li>
+<select class="more">
+<option>More</option>
+<option>Music</option>
+<option>TV</option>
+<option>Weathet</option>
+<option>Sounds</option>
+</select> 
+</ul>
+</div>
+<div class="search">
+<p>Search</p>   
+<img src="photo/pict.png" width="20px"height="20px">
+</div>
+</div>
+<div class="adv_bar">
+<p>ADVERTISEMENT</p>
+</div>
+<div class="break">
+</div>
+<div class="fixedwidth">
+<div class="talks1">
+<p>Welcome to BBC.com<p>
+</div>
+<div class="talks2">
+<p>Friday, 22 January</p>
+</div>
+<div class="first_pic">
+<img src="photo/first_pic.PNG"width="620"height="350">                    
+<p>EU to tighten vaccin exports amid AstraZeneca row<p>
+<p1>The EU says it is unacceptable that AstraZeneca is cutting the number of pledged vaccine doses</p1>                 
+<p2>EUROPE</p2>  
+<div class="line">
+</div>                 
+</div>
+<div class="second_pic">
+<img src="photo/second_pic.PNG"height="170"width="300">
+<p>Africa Live: Mail and French troops kill 100 jihadists<p>
+<p2>Africa</p2>
+<div class="line2">                          
+</div>
+</div>
+<div class="third_pic">
+<img src="photo/third_pic.PNG"height="170"width="300">
+<p>Premier League reaction & latest transfer news<p>
+<p2>FOOTBALL</p2>
+<div class="line3">                              
+</div>
+</div>
+<div class="forth_pic">
+<img src="photo/forth_pic.PNG"height="170"width="300">
+<p1>Nigeria's president fires armed forces chiefs</p1>  
+<p2>Nigeria</p2> 
+<div class="line4">
+</div>
+</div>
+<div class="fifth_pic">
+<img src="photo/fifth_pic.PNG"height="170"width="300">
+<p>Africans eye savings in vast new free-trade zone</p>
+<p2>AFRICA</p2>
+<div class="line5">
+</div>
+</div>
+<div class="second_news">
+<p>News</p>
+<div class="line6">
+</div>
+</div>
+<div class="nurse_photo">
+<img src="photo/nurse.PNG"width="300"height="170">
+<div class="speak1"> <p9>Covid: Why is EU’s vaccine rollout so slow?</p9></div>
+<div class="speak2">
+Ursula von der Leyen's call follows a row over the firm's deal to supply its Covid jab to the EU.
+<div class="EUROPE">EUROPE</div>
+<div class="line7"></div>
+</div>
+</div>
+<div class="china_photo">
+<img src="photo/china.PNG"height="170"width="300">
+<div class="speak11">China warns Taiwan independence 'means war'</div>
+<div class="speak22">The warning comes days after China stepped up military activities near the self-governed island</div>
+<div class="asia">ASIA</div>
+<div class="line9"></div>
+</div>
+<div class="3picture">
+<div class="first_girl">
+<img src="photo/girl3.PNG"height="170"width="100">
+<div class="play_icon">
+<img src="photo/play_icon.png"width="30px"height="30px"> 
+</div>       
+</div> 
+<div class="second_girl">
+<img src="photo/girl2.PNG"height="170"width="100">
+</div> 
+<div class="third_girl">
+<img src="photo/girl1.PNG"height="170"width="100">
+</div>
+<div class="speak33">Why roller skating is making a comeback</div>
+<div class="speak_girls">It's become so popular in the past year that there's now a worldwide shortage of skates.
+</div>
+<div class="world">
+WORLD</div>
+<div class="line10">
+</div>
+</div>
+<div class="ground_adv">
+<div class="ground_adv_text">
+ADVERTISEMENT
+</div>
+</div> 
+
+                    <div class="second_sport">sport</div>
+                    <div class="line11"></div>
+
+
+                    <div class="breaking">
+                    <img src="photo/breaking.PNG"height="170"width="300">
+                    <div class="breaking_speak">West Brom report Sawyers abuse to police</div>
+                    <div class="breaking_speak_topic">
+                        West Bromwich Albion contact police to report an alleged racist message sent to midfielder Romaine Sawyers.
+                        </div>
+                        <div class="breaking_speak_football">FOOTBALL</div>
+                        <div class="breaking_speak_line"></div>
+                    </div>
+
+
+                    <div class="coach">
+                        <img src="photo/coach.PNG"height="170"width="300">
+                        <div class="coach_speak">'Liverpool show they are here to stay in title race'</div>
+                        <div class="coach_topic">
+                            Liverpool have been so impressive for so long under Jurgen Klopp that their recent blip raised rare questions, which they answered in style at Tottenham, writes Phil McNulty.
+                        </div>
+                        <div class="coach_football">FOOTBALL</div>
+                        <div class="coach_line"></div>
+                    </div>    
+
+  
+
+                    <div class="hug">
+                        <img src="photo/hug.PNG"height="170"width="300">
+                        <div class="hug_title">Liverpool end poor run with win at Spurs</div>
+                        <div class="hug_topic">Liverpool reignite their Premier League title defence by ending a five-match winless run with a comfortable win at Tottenham.
+                          </div>
+                        <div class="hug_PREMIER_LEAGUE">PREMIER LEAGUE</div>  
+                        <div class="hug_line"></div>
+                    </div>  
+                    
+
+
+
+
+                     <div>
+                    <div class="weather">LAGOS WEATHER</div>
+                    <div class="weather_square"></div>
+                    <div class="edit">EDIT</div>
+                    <div class="weather_first_icon">
+                        <img src="photo/cloud.PNG"height="60px"width="60px;">
+                        <div class="friday">FRI</div>
+                        <div class="temp_1">33 C</div>
+                        <div class="temp_2">23 C</div>
+                    </div>
+                       
+
+
+                    <div class="weather_second_icon">   
+                        <img src="photo/son.PNG"height="60px"width="60px;">
+                        <div class="saturday">SAT</div>
+                        <div class="temp_1_2">34 C</div>
+                        <div class="temp_2_2">23 C</div> 
+                        </div>
+
+
+                        <div class="weather_third_icon">   
+                            <img src="photo/cloud.PNG"height="60px"width="60px;">
+                            <div class="sunday">SUN</div>
+                            <div class="temp_1_3">35 C</div>
+                            <div class="temp_2_3">23 C</div> 
+                            </div>
+
+    
+
+                            <div class="weather_forth_icon">   
+                                <img src="photo/cloud.PNG"height="60px"width="60px;">
+                                <div class="monday">MUN</div>
+                                <div class="temp_1_4">34 C</div>
+                                <div class="temp_2_4">23 C</div> 
+                                </div>
+
+
+                        </div>
+</div>
+ 
+<div class="sun_rise">
+    <img src="photo/sunrise.jpg"width="100%"height="500px">
+    </div>
+
+                <div class="fixedwidth">
+
+                 <div class="reel">REEL</div>
+                 <div class="title">The most amazing videos from the BBC</div>
+                 <div class="food_pic">
+                     <img src="photo/food.PNG"width="400"height="220">
+                     <div class="baner"></div>
+                     <div class="baner_title1">The world's most nutritious foods, according to science</div>
+                     </div>
+
+
+                <div class="mark_pic">
+                    <img src="photo/mark.PNG"width="400"height="220">
+                    <div class="baner2"></div>
+                    <div class="baner_title2">The 'other Chernobyl' the Soviets kept secret</div>
+                </div>    
+
+     
+                
+
+                <div class="teacher_pic">
+                    <img src="photo/teacher.PNG"width="400"height="220">
+                    <div class="baner3"></div>
+                    <div class="baner_title3">The English language ‘laws’ you never knew you knew</div>
+                    <div class="shape"></div>
+                    <div class="visit">Visit Reel --></div>
+                
+                </div>    
+            </div>
+
+                    
+                    <div class="back_ground">
+                     <div class="fixedwidth">
+                    <div class="line12"></div>
+                    <div class="Editor’s_Picks">Editor’s Picks</div>
+                    <div class="rock"><img src="photo/rock.PNG"width="850"height="500">
+                      <div class="rock_title">Australia's mysterious 'Stonehenge'</div>
+                      <div class="rock_topic">
+                        These ancient Aboriginal structures could be the world’s oldest observatory</div>
+                        <div class="rock_travel"></div>
+                        <div class="_rock_travel">TRAVEL</div>
+                    </div>
+                  
+
+
+
+<div class="head_lable"></div>
+<div class="head_lable_title">LATEST BUSINESS NEWS</div>
+<div class="lable1"></div>
+<div class="lable2"></div>
+<div class="lable3"></div>
+<div class="lable4"></div>
+<div class="lable5"></div>
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="circle3"></div>
+<div class="circle4"></div>
+<div class="circle5"></div>
+<div class="number1">1</div>
+<div class="number2">2</div>
+<div class="number3">3</div>
+<div class="number4">4</div>
+<div class="number5">5</div>
+<div class="title1">GameStop: Who is winning the market battle?</div>
+<div class="title2">Work from bed: 'I don't even have to get dressed'</div>
+<div class="title3">Global watchdogs on alert as GameStop frenzy grows</div>
+<div class="title4">EU-AstraZeneca disputed jab contract made public</div>
+<div class="title5">Tech Tent: Iron Man’s climate change mission</div>
+
+
+
+<div class="carbon_pic">
+    <img src="photo/carbon.PNG"height="170"width="270">
+    <div class="carbon_background">
+    <div class="carbon_title">The foods that are carbon negative</div>
+    <div class="carbon_topic">Can sustainable production methods help to reverse climate change?</div>
+    <div class="carbon_line"></div>
+    <div class="carbon_FOLLOW_THE_FOOD">FOLLOW THE FOOD</div>
+
+</div>
+</div> 
+<div class="petrool_pic">
+    <img src="photo/petrool.PNG"height="170"width="270">
+    <div class="petrool_background">
+    <div class="petrool_title">The new use for abandoned oil rigs</div>
+    <div class="petrool_topic"> There is one feature of these rigs that is actually beneficial for the ocean</div>
+    <div class="petrool_line"></div>
+    <div class="petrool_future">FUTURE</div>
+
+       
+
+    
+</div>
+</div>  
+<div class="elon_pic">
+    <img src="photo/elon.PNG"height="170"width="270">
+    <div class="elon_background">
+    <div class="elon_title">The reasons CEOs make so much money</div>
+    <div class="elon_topic">The staggering gap between executive and worker pay, explained</div>
+    <div class="elon_line"></div>
+    <div class="elon_WORKLIFE">WORKLIFE</div>
+
+
+</div>
+
+</div>  
+
+
+
+
+                     </div>
+                    </div>
+
+                        <div class="flower">
+                                  <img src="photo/flower.PNG"width="100%"height="500px">
+                            <div class="fixedwidth">
+                                  <div class="first_shape"></div>
+                                  <div class="shape_future">Future Planet</div>
+                                  <div class="under_shape">Solutions for a sustainable world</div>
+                                  <div class="circle_shape">
+                                      <div class="words">Visit Future Planet ---></div>
+                                  </div>
+                                  <div class="phone"><img src="photo/phone.PNG"height="250"width="420">
+                                    <div class="phone_back_ground">
+                                    <div class="phone_title">The country rejecting throwaway culture</div>
+                                </div>
+                                    </div>
+                                    <div class="map"><img src="photo/map.PNG"height="250"width="420">
+                                        <div class="map_back_ground">
+                                            <div class="map_title">The city that refuses to sink</div>
+                                        </div>
+                                    </div> 
+                                    <div class="dolphen"><img src="photo/dolphen.PNG"height="250"width="420">
+                                        <div class="dolphen_back_ground">
+                                            <div class="dolphen_title">How whales help cool the Earth </div>
+                                           
+                                        </div>
+                                    </div> 
+                                    </div>       
+                                    
+                            </div>
+
+
+
+
+                            <div class="fixedwidth">
+                                <div class="technology">TECHNOLOGY OF BUSINESS
+                                    <div class="plane">
+                                        <img src="photo/plane.PNG"height="350"width="620">
+                                        <div class="plane_line">
+                                            <div class="business">BUSINESS</div>
+                                        </div>
+                                        <div class="plane_topic">Satellite boom attracts technology giants</div>
+                                </div>
+                                <div class="FOLLOW_THE_FOOD">FOLLOW THE FOOD</div>
+                                <div class="man_pic">
+                                    <img src="photo/man.PNG"height="350"width="620">
+                                    <div class="man_line">
+                                        <div class="man_future">FUTURE</div>
+                                        </div>
+                                        <div class="man_topic"> Reasons to be hopeful our food will fix the planet</div>
+                                    </div>
+                                </div> 
+
+                            </div>
+
+                            <div class="second_back_ground">
+                                 <div class="fixedwidth">
+                                     <div class="line13"></div>
+                                     <div class="Featured_video">Featured video</div>
+                                     <div class="duck_pic"><img src="photo/duck.PNG"width="100%"height="700">
+                                    <div class="play_icon"><img src="photo/play_icon.png"width="80"height="70"></div>
+                                      </div>
+                                      <div class="duck_title">The 'surfing duck' causing delight in Australia</div>
+                                      <div class="duck_topic">The duck - called Duck - has become renowned locally for his daily forays into the sea.</div>
+                                      <div class="duck_line"></div>
+                                      <div class="AUSTRALIA">AUSTRALIA</div>
+                                      <div class="first_slice">
+                                      <div class="recommended">RECOMMENDED</div>
+                                      <div class="Most_Watched">Most Watched</div>
+                                      <div class="Latest">Latest</div>
+                                      <div class="limited_line"></div>
+                                      <div class="second_limited_line"></div>
+                                      <div class="third_limited_line">
+
+                                            
+                                          <div class="second_duck"><img src="photo/com_duck.PNG"width="210"height="120">
+                                            <div class="second_duck_title">The 'surfing duck' causing delight in...</div>
+                                            <div class="line14"></div>
+                                            <div class="AUSTRALIA258">AUSTRALIA</div>
+                                      </div>
+
+                                      <div class="girls3_pic"><img src="photo/3girls.PNG"width="210"height="120">
+                                        <div class="girls3_pic_topic">why roller-skating is macking a comeback</div>
+                                        <div class="line15"></div>
+                                        <div class="WORLD555">WORLD</div>
+                                    
+                                    </div>
+                                    <div class="strange_man"><img src="photo/strange_man.PNG"width="210"height="120">
+                                        <div class="strange_man_topic">Living through lockdown in a high-riseflat</div>
+                                        <div class="line16"></div>
+                                            <div class="UK">UK</div>
+                                            <div class="arrow"><img src="photo/arrow.PNG"width="50px"height="100px"></div>
+                                        </div>
+
+                                    </div>
+                                   
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div> 
+
+
+
+                        <div class="fixedwidth">
+                            <div class="on_air_red_line">
+                                <div class="BBC_WORLD_SERVICE">BBC WORLD SERVICE</div>
+                                <div class="on_air_black_line">
+                                    <div class="micro"><img src="photo/micro.PNG"width="23px"height="23px"></div>
+                                    <div class="ON_AIr_Music_Life">ON AIR: Music Life</div>
+                                </div>
+                            </div>
+
+
+
+                        </div>    
+
+
+
+
+                                                     <div class="third_back_ground">
+                                                         <div class="fixedwidth">
+                                                             <div class="line17"></div>
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             <div class="More_around_the_BBC">More around the BBC</div>
+                                                             <div class="sunrise2_pic">
+                                                             <img src="photo/sunrise2.jpg"width="800px"height="500px">
+                                                             <div class="sunrise2_title">Stampede from fossil fuels 'would cost UK jobs'</div>
+                                                            <div class="sunrise2_topic">
+                                                                Dumping fossil fuel shares would lead to 'extraordinary' job losses, says BlackRock boss Larry Fink.
+                                              <div class="line18"></div>  
+                                              <div class="sunrise2_business">BUSINESS</div>            
+                                                            </div>
+                                                            <div class="doctor_pic">
+                                                            <img src="photo/doctor.PNG"width="260px"height="160px">  
+                                                            <div class="doctor_pic_background" ></div> 
+                                                            <div class="doctor_pic_topic">EU approves AstraZeneca vaccine amid supply row</div>
+                                                            <div class="line18">
+                                                                <div class="doctor_europe">EUROPE</div>
+                                                            </div>
+                                                             
+                                                        </div>
+                                                        <div class="young_pic">
+                                                            <img src="photo/young.PNG"width="260px"height="160px">
+                                                            <div class="young_pic_background" ></div> 
+                                                            <div class="doctor_pic_topic">Stocks explained: What's going on with GameStop?</div> 
+                                                            <div class="line19">
+                                                                <div class="young_TECHNOLOGY">TECHNOLOGY</div>
+                                                            </div>
+                                                        </div>
+                                                             <div class="sky_pic">
+                                                                <img src="photo/sky.PNG"width="260px"height="160px">
+                                                                <div class="sky_pic_background" ></div> 
+                                                                <div class="sky_pic_topic">'Visionary' music producer Sophie dies aged 34</div> 
+                                                                <div class="line20">
+                                                                    <div class="sky_TECHNOLOGY">ENTERTAINMENT & ARTS</div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                              <div class="stop_pic">
+                                                                <img src="photo/stop.PNG"width="260px"height="160px">
+                                                                <div class="stop_pic_background" ></div>
+                                                                <div class="stop_pic_topic">Could the pandemic kill off HS2?</div> 
+                                                                <div class="line21">
+                                                                    <div class="young_TECHNOLOGY">UK POLITICS</div>
+                                                                </div>                                            
+                                                            </div> 
+                                                                
+ 
+                                                            <div class="star_pic">
+                                                                <img src="photo/star.PNG"width="260px"height="160px">
+                                                                <div class="star_pic_background" ></div>
+                                                                <div class="star_pic_topic">Google halts 'review bombing' of stock market apps</div> 
+                                                                <div class="line22">
+                                                                    <div class="star_TECHNOLOGY">TECHNOLOGY</div>
+                                                                </div>                                            
+                                                            </div> 
+
+                                                             
+                                                            <div class="nurse2_pic">
+                                                                <img src="photo/nurse2.PNG"width="260px"height="160px">
+                                                                <div class="nurse2_pic_background" ></div>
+                                                                <div class="nurse2_pic_topic">Single-dose Johnson & Johnson jab is 66% effective</div> 
+                                                                <div class="line23">
+                                                                    <div class="nurse2_TECHNOLOGY">HEALTH</div>
+                                                                </div>                                            
+                                                            </div> 
+                                                        </div>   
+
+
+
+                                    
+                                                                       <div class="lable11">
+                                                                           <div class="lable11_topic">FROM OUR CORRESPONDENTS</div>
+                                                                       </div>
+
+
+                                                                       <div class="lable122">
+                                                                           <div class="pic22"><img src="photo/22.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                           <div class="label22_topic">Bog beetles finally reveal their remarkable age</div>
+                                                                        <div class="lable122_sig">By Jonathan Amos</div>
+                                                                        </div>
+                                                                        </div>
+
+
+                                                                       <div class="lable133">
+                                                                           <div class="pic33"><img src="photo/33.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                            <div class="lable133_topic">Antony Gormley announces 'UK's biggest exhibition'</div>
+                                                                            <div class="lable133_sig">By Will Gompertz</div>
+                               
+                                                                           </div>                                  
+                                                                       </div>
+
+
+
+                                                                       <div class="lable144">
+                                                                        <div class="pic44"><img src="photo/44.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                           <div class="lable144_topic"> What tech can the US president use?</div> 
+                                                                           <div class="lable144_sig"> By James Clayton and Cody Godwin</div>                                      
+
+
+
+                                                                         </div>                          
+                                                                       </div>
+                                                                       <div class="lable155">
+                                                                        <div class="pic55"><img src="photo/55.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                            <div class="lable155_topic"> 'Time is running out' to save sharks and rays</div> 
+                                                                           <div class="lable155_sig">By Helen Briggs</div>  
+                                                                           
+                                                                           
+                                                                           </div>
+
+                                                                       </div>
+
+
+                                                                       <div class="lable166">
+                                                                        <div class="pic66"><img src="photo/66.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                            <div class="lable166_topic"> The people Joe Biden hopes can fix the US economy</div> 
+                                                                           <div class="lable166_sig">By Natalie Sherman</div>  
+                                                                           
+                                                                           
+                                                                           </div>
+                                                                        </div>
+
+
+                                                                        <div class="lable177">
+                                                                            <div class="pic77"><img src="photo/77.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                                <div class="lable177_topic">The comic in jail for jokes he didn't crack</div> 
+                                                                               <div class="lable177_sig">By Soutik Biswas</div>  
+                                                                               
+                                                                               
+                                                                               </div>
+                                                                            </div>
+
+                                                                      
+                                                                        <div class="lable188">
+                                                                            <div class="pic88"><img src="photo/88.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                                <div class="lable188_topic">The comic in jail for jokes he didn't crack</div> 
+                                                                               <div class="lable188_sig">By Soutik Biswas</div>  
+                                                                               
+                                                                               
+                                                                               </div>
+                                                                            </div>
+
+
+                                                                       <div class="lable199">
+                                                                        <div class="pic99"><img src="photo/99.PNG"height="60"width="60" style=border-radius:30px;>
+                                                                            <div class="lable199_topic">Beware fake Covid vaccination invites, NHS warns</div> 
+                                                                           <div class="lable199_sig">By Zoe Kleinman</div>  
+                                                                           
+                                                                           
+                                                                           </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div> 
+
+
+                                                                <div class="fixedwidth">
+
+                                                                    <div class="GLOBAL_TRADE">GLOBAL TRADE </div>
+                                                                        <div class="helen_pic"><img src="photo/helen.PNG"width="450"height="260">
+                                                                            <div class="helen_title">'I'm being quoted £10,000 for a £1,600 container'</div>
+                                                                            <div class="line20"></div>
+                                                                            <div class="business">BUSINESS</div>
+
+
+                                                                        </div>
+
+
+                                                                        <div class="ADVERTISEMENT"> ADVERTISEMENT</div>
+
+
+
+
+                                                                        <div class="zoom_pic"><img src="photo/zoom.PNG"width="450"height="260">
+                                                                            <div class="zoom_title">Like a good deal? Maybe a hagglebot can help</div>
+                                                                            <div class="line21"></div>
+                                                                            <div class="business2">BUSINESS</div>
+                                                                        </div>
+
+
+                                                                    </div>
+
+
+                                                                    <div class="another_background">
+                                                                    <div class="fixedwidth">
+                                                                        <div class="line25"></div>
+                                                                        <div class="World_in_pictures">World in pictures</div>
+                                                                        <div class="woman_pic">
+                                                                            <img src="photo/woman.PNG"height="400px"width="635px"> 
+                                                                            <div class="woman_title">Striking news pictures from around the world</div>
+                                                                            
+                                                                        <div class="line28"></div>
+                                                                        <div class="INx_PICTURES">IN PICTURES</div>
+                                                                        <div class="camera1"><img src="photo/camera.PNG"height="50px"width="50px"> </div>
+                                                                        </div>
+
+
+
+                                                                        <div class="pyramid_pic">
+                                                                            <img src="photo/pyramid.PNG"height="400px"width="635px"> 
+                                                                            <div class="pyramid_title">Africa's top shots: Lonely pyramids and crashing waves</div>
+                                                                            
+                                                                        <div class="line28"></div>
+                                                                        <div class="AFRICA">AFRICA</div>
+                                                                        <div class="camera2"><img src="photo/camera.PNG"height="50px"width="50px"> </div>
+                                                                        </div>
+
+                                                                        <div class="woman2_pic">
+                                                                            <img src="photo/woman2.PNG"height="250"width="420">
+                                                                        
+                                                                            <div class="woman2_ground"></div>
+                                                                            <div class="woman2_topic">The Covid-19 volunteers supporting the NHS</div>
+                                                                        <div class="line29"></div>
+                                                                        <div class="SUFFOLK">SUFFOLK</div>
+                                                                        <div class="camera3"><img src="photo/camera.PNG"height="50px"width="50px"> </div>
+                                                                        </div>
+
+
+
+
+                                                                        <div class="dogs_pic">
+                                                                            <img src="photo/dogs.PNG"height="250"width="420">
+                                                                        
+                                                                            <div class="dogs_ground"></div>
+                                                                            <div class="dogs_topic">A raccoon, pony and other White House pets</div>
+                                                                        <div class="line29"></div>
+                                                                        <div class="IN_PICTURES">IN PICTURES</div>
+                                                                        <div class="camera4"><img src="photo/camera.PNG"height="50px"width="50px"> </div>
+                                                                        </div>
+                                                                        <div class="building_pic">
+                                                                            <img src="photo/building.PNG"height="250"width="420">
+                                                                        
+                                                                            <div class="building_ground"></div>
+                                                                            <div class="building_topic">The Art of Building 2020</div>
+                                                                        <div class="line30"></div>
+                                                                        <div class="INn_PICTURES">IN PICTURES</div>
+                                                                        <div class="camera5"><img src="photo/camera.PNG"height="50px"width="50px"> </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="before_the_last_background">
+                                                                    <div class="fixedwidth">
+                                                                        <div class="BBC_IN_OTHER_LANGUAGES">BBC IN OTHER LANGUAGES </div>
+                                                                        <div class="Hausa">Hausa</div>
+                                                                        <div class="hausa_title">Abubuwa biyar da Buhari ya fada a ziyararsa ta Daura</div>
+                                                                        <div class="arabic">Arabic</div>
+                                                                        <div class="arabic_tile">خبراء منظمة الصحة العالمية يزورون "أول بؤرة لكورونا" في الصين</div>
+                                                                        <div class="Swahili">Swahili</div>
+                                                                        <div class="sw_tile">Maandamano ya kupinga kufungwa kwa mpinzani wa Putin kuitikisa Urusi</div>
+                                                                        <div class="Somali">Somali</div>
+                                                                        <div class="so_title">Falanqeyn: “Wey adagtahay in hadda Dhuusamareeb laisugu tego horeyna heshiis laga gaaro"</div>
+                                                                        <div class="More_Languages">More Languages</div>
+                                                                        <div class="language1_in_bbc">
+                                                                            <ul>
+                                                                                <li>Arabic عربي</li>
+                                                                                <li>Chinese 中文网</li>
+                                                                                <li>Indonesian INDONESIA</li>
+                                                                                <li>Kyrgyz Кыргыз</li>
+                                                                                <li>Persian فارسی</li>
+                                                                                <li>Somali SOMALI</li>
+                                                                                <li>Turkish TÜRKÇE</li>
+                                                                                <li>Vietnamese TIẾNG VIỆT</li>
+  
+                                                                            </ul>
+                                                                            </div>
+
+                                                                            <div class="language2_in_bbc">
+                                                                                <ul>
+                                                                                    <li>Azeri AZƏRBAYCAN</li>
+                                                                                    <li>French AFRIQUE</li>
+                                                                                    <li>Japanese 日本語</li>
+                                                                                    <li>Marathi मराठी</li>
+                                                                                    <li>Portuguese BRASIL</li>
+                                                                                    
+                                                                                    <li>Spanish MUNDO</li>
+                                                                                    <li>Ukrainian УКРАЇНСЬКA</li>
+                                                                                    
+                                                                                </ul>
+                                                                                </div>
+
+                                                                                <div class="language3_in_bbc">
+                                                                                    <ul>
+                                                                                        <li>Bangla বাংলা</li>
+                                                                                        <li>Hausa HAUSA</li>
+                                                                                        <li>Kinyarwanda GAHUZA</li>
+                                                                                        <li>Nepali नेपाली</li>
+                                                                                        <li>Russian НА РУССКОМ</li>
+                                                                                        
+                                                                                        <li>Swahili SWAHILI</li>
+                                                                                        <li>Urdu اردو</li>
+                                                                                                
+                                                                                    </ul>
+                                                                                    </div>
+
+                                                                                    <div class="language4_in_bbc">
+                                                                                        <ul>
+                                                                                            <li>Burmese မြန်မာ</li>
+                                                                                            <li>Hindi हिन्दी</li>
+                                                                                            <li>Kirundi KIRUNDI</li>
+                                                                                            <li>Pashto پښتو</li>
+                                                                                            <li>Sinhala සිංහල</li>
+                                                                                            
+                                                                                            <li>Tamil தமிழ்</li>
+                                                                                            <li>Uzbek O'ZBEK</li>
+                                                                                            
+                                                                                        </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="last_background">
+                                                                                    <div class="fixedwidth">
+                                                                                        <div class="explore">Explore the BBC</div>
+                                                                                        <div class="last_list">
+                                                                                            <ul>
+                                                                                                <li>Home  </li>
+                                                                                                    
+                                                                                                
+                                                                                                 <li > News  </li>
+                                                                                                    
+                                                                                                
+                                                                                                <li>Sport </li>
+                                                                                                    
+                                                                                                
+                                                                                                <li>Reel</li>
+                                                                                                    
+                                                                                                
+                                                                                                <li>Worklife </li>
+                                                                                                
+                                                                                                
+                                                                                                <li>Travel  </li>
+                                                                                                <li>Future</li>
+                                                                                                <li>Culture</li>
+                                                                                                <li>Music</li>
+                                                                                                <li>TV</li>
+                                                                                                <li>Weather</li>
+                                                                                                <li>Sounds</li>
+
+
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                        <div class="last_line"></div>
+                                                                                        
+<div class="after_last_list">
+<ul>
+<li> Terms of Use</li>
+
+<li>About the BBC</li>
+<li>Privacy Policy</li>
+<li>Cookies</li>
+<li>Accessibility Help</li>
+<li>Accessibility Help</li>
+<li>Contact the BBC</li>
+<li>Get Personalised Newsletters</li>
+<li>Advertise with us</li>
+
+                                                                                            </ul>
+                                                                                        </div>
+
+                                                                                        <div class="before_the_last_line">AdChoices / Do Not Sell My Info</div>
+                                                                                        <div class="last_line111"></span class="part">Copyright © 2021 BBC.</span> <span class="mid">The BBC is not responsible for the content of external sites.</span><span class="last_part"> Read about our approach to external linking.</span></div>
+                                                                                                    
+                                                                                               
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                
+</div>
+            </body>
+    </html>
